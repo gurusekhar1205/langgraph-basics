@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and test artifacts
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local vector databases and generated indexes
+chroma_db/
+faiss_index/
+vector_store/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+
+# Local SQLite databases and runtime state
+mcp-basics/checkpoints.sqlite

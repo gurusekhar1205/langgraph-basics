@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Local vector indexes and generated artifacts
+faiss_index/
+chroma_db/
+vector_store/
+
+# Editor and OS files
+.vscode/
+.DS_Store
