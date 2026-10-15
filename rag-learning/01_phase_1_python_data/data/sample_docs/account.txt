@@ -1,0 +1,2 @@
+Users can reset a forgotten password from the login page.
+Contact support if the reset link expires.

@@ -1,0 +1,2 @@
+If the application crashes, collect the error message and logs.
+Restart the application and check the troubleshooting guide.
